@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gavinsun0921.github.io/posts/paper-research-02/</loc>
-    <lastmod>2024-02-12T13:53:33+08:00</lastmod>
-  </url><url>
     <loc>https://gavinsun0921.github.io/categories/</loc>
+    <lastmod>2025-04-10T15:18:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/categories/cuda/</loc>
+    <lastmod>2025-04-10T15:18:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/</loc>
+    <lastmod>2025-04-10T15:18:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/posts/</loc>
+    <lastmod>2025-04-10T15:18:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/series/</loc>
+    <lastmod>2025-04-10T15:18:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/series/technical-manual/</loc>
+    <lastmod>2025-04-10T15:18:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/posts/install_cuda_and_cudnn/</loc>
+    <lastmod>2025-04-10T15:18:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/posts/paper-research-02/</loc>
     <lastmod>2024-02-12T13:53:33+08:00</lastmod>
   </url><url>
     <loc>https://gavinsun0921.github.io/tags/computer-vision/</loc>
@@ -26,16 +44,7 @@
     <loc>https://gavinsun0921.github.io/tags/dpm/</loc>
     <lastmod>2024-02-12T13:53:33+08:00</lastmod>
   </url><url>
-    <loc>https://gavinsun0921.github.io/</loc>
-    <lastmod>2024-02-12T13:53:33+08:00</lastmod>
-  </url><url>
     <loc>https://gavinsun0921.github.io/series/paper-research/</loc>
-    <lastmod>2024-02-12T13:53:33+08:00</lastmod>
-  </url><url>
-    <loc>https://gavinsun0921.github.io/posts/</loc>
-    <lastmod>2024-02-12T13:53:33+08:00</lastmod>
-  </url><url>
-    <loc>https://gavinsun0921.github.io/series/</loc>
     <lastmod>2024-02-12T13:53:33+08:00</lastmod>
   </url><url>
     <loc>https://gavinsun0921.github.io/tags/</loc>

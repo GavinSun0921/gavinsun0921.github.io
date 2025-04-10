@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  
+><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>无ROOT权限在服务器安装CUDA和CUDNN教程 | Gavin&#39;s Blog</title>
+
+<meta name="generator" content="Hugo Eureka 0.9.3" />
+<link rel="stylesheet" href="https://gavinsun0921.github.io/css/eureka.min.9cec6350e37e534b0338fa9a085bf06855de3b0f2dcf857e792e5e97b07ea905d4d5513db554cbc26a9c3da622bae92d.css">
+<script defer src="https://gavinsun0921.github.io/js/eureka.min.e8043b71b627e3cfd9b2a5de56adf007f5af83dee672ca0c186aa2e29a10d6f648632064d0c00b2fa4d1b11e0f196af3.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&amp;family=Noto&#43;Serif&#43;SC:wght@400;600;700&amp;display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/styles/base16/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js"
+   crossorigin></script>
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/languages/dart.min.js"
+     crossorigin></script>
+<link rel="stylesheet" href="https://gavinsun0921.github.io/css/highlightjs.min.2958991528e43eb6fc9b8c4f2b8e052f79c4010718e1d1e888a777620e9ee63021c2c57ec7417a3108019bb8c41943e6.css" media="print" onload="this.media='all';this.onload=null">
+
+
+<script defer type="text/javascript" src="https://gavinsun0921.github.io/js/fontawesome.min.fb69ff3af1b41e5c3541e216afca8173aea4f40c44872a910f1d0ae04937ac1e8655bbf67e550f1a14fe9b93a166a96d.js"></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
+   integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" 
+  integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js"
+   integrity="sha384-&#43;XBljXPPiv&#43;OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://gavinsun0921.github.io/images/profile_hucaa8c691112995772162609a17edd22e_212855_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://gavinsun0921.github.io/images/profile_hucaa8c691112995772162609a17edd22e_212855_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="1. 这篇教程是做什么的？ 在科研工作中，普通用户在服务器上需要使用的 CUDA Toolkit 版本和服务器上已经安装的 CUDA Toolkit 版本不一定一致，在没有 ROOT 权限的情况下，也可以安装需要的">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Posts",
+      "item":"https://gavinsun0921.github.io/posts/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"无ROOT权限在服务器安装CUDA和CUDNN教程",
+      "item":"https://gavinsun0921.github.io/posts/install_cuda_and_cudnn/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://gavinsun0921.github.io/posts/install_cuda_and_cudnn/"
+    },
+    "headline": "无ROOT权限在服务器安装CUDA和CUDNN教程 | Gavin\u0027s Blog",
+    "image": "https://gavinsun0921.github.io/images/technical-manual/cuda-toolkit-download-webpage.jpg",
+    "datePublished": "2025-04-10T15:18:39+08:00",
+    "dateModified": "2025-04-10T15:18:39+08:00",
+    "wordCount":  1381 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "Gavin Sun",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://gavinsun0921.github.io/images/profile.png"
+        }
+        },
+    "description": "1. 这篇教程是做什么的？ 在科研工作中，普通用户在服务器上需要使用的 CUDA Toolkit 版本和服务器上已经安装的 CUDA Toolkit 版本不一定一致，在没有 ROOT 权限的情况下，也可以安装需要的"
+}
+</script><meta property="og:title" content="无ROOT权限在服务器安装CUDA和CUDNN教程 | Gavin&#39;s Blog" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://gavinsun0921.github.io/images/profile.png">
+
+
+<meta property="og:url" content="https://gavinsun0921.github.io/posts/install_cuda_and_cudnn/" />
+
+
+
+
+<meta property="og:description" content="1. 这篇教程是做什么的？ 在科研工作中，普通用户在服务器上需要使用的 CUDA Toolkit 版本和服务器上已经安装的 CUDA Toolkit 版本不一定一致，在没有 ROOT 权限的情况下，也可以安装需要的" />
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Gavin&#39;s Blog" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2025-04-10T15:18:39&#43;08:00" />
+
+
+<meta property="article:modified_time" content="2025-04-10T15:18:39&#43;08:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <body class="flex min-h-screen flex-col">
+    <header
+      class="min-h-16 pl-scrollbar bg-secondary-bg fixed z-50 flex w-full items-center shadow-sm"
+    >
+      <div class="mx-auto w-full max-w-screen-xl"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="me-6 text-primary-text text-xl font-bold">Gavin&#39;s Blog</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">Posts</a>
+            <a href="/categories" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Categories</a>
+            <a href="/series" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Series</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == 'Auto') {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'adjust')
+        element.firstElementChild.classList.add('fa-adjust')
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+    </header>
+    <main class="grow pt-16">
+        <div class="pl-scrollbar">
+          <div class="mx-auto w-full max-w-screen-xl lg:px-4 xl:px-8">
+  
+  
+  <div class="grid grid-cols-2 gap-4 lg:grid-cols-8 lg:pt-12">
+    <div
+      class=" bg-secondary-bg col-span-2 rounded px-6 py-8 lg:col-span-6"
+    >
+      <article class="prose">
+  <h1 class="mb-4">无ROOT权限在服务器安装CUDA和CUDNN教程</h1>
+
+  <div class="text-tertiary-text not-prose mt-2 flex flex-row flex-wrap items-center">
+  <div class="me-6 my-2">
+    <i class="fas fa-calendar me-1"></i>
+    <span>
+      2025-04-10
+    </span>
+  </div>
+  
+
+  
+  <div class="me-6 my-2">
+    <i class="fas fa-folder me-1"></i>
+    
+    <a href="https://gavinsun0921.github.io/categories/cuda/" class="hover:text-eureka">CUDA</a>
+    
+  </div>
+  
+
+  
+  <div class="me-6 my-2">
+    <i class="fas fa-th-list me-1"></i>
+    
+    <a href="https://gavinsun0921.github.io/series/technical-manual/" class="hover:text-eureka">Technical Manual</a>
+    
+  </div>
+  
+</div>
+
+  
+  
+    <img src="https://gavinsun0921.github.io/images/technical-manual/cuda-toolkit-download-webpage.jpg" class="w-full" alt="Featured Image">
+  
+
+  <h2 id="1-这篇教程是做什么的">1. 这篇教程是做什么的？</h2>
+<p>在科研工作中，普通用户在服务器上需要使用的 CUDA Toolkit 版本和服务器上已经安装的 CUDA Toolkit 版本不一定一致，在没有 ROOT 权限的情况下，也可以安装需要的 CUDA Toolkit 版本和对应的 cuDNN，本文的实践教程是在 Ubuntu 上。</p>
+<p>⚠️注意：非 ROOT 权限不应该对驱动（CUDA Driver）进行任何修改（也无法修改），如果驱动版本过低，请联系服务器管理员。</p>
+<h3 id="11-使用服务器上已有的-cuda-toolkit-和-cudnn">1.1 使用服务器上已有的 CUDA Toolkit 和 cuDNN</h3>
+<p>常规服务器应该会有已安装的 CUDA Toolkit 和 cuDNN，一般位于 <code>/usr/local/</code> 目录下，使用时仅需要配置<strong>环境变量</strong>即可！</p>
+<p>一般来说将下方命令添加到 <code>~/.bashrc</code> 文件中，<code>CUDA_HOME</code> 环境变量就是 CUDA 对应位置（如果有多个版本，可以自行选择启用哪个版本）。</p>
+<pre><code class="language-sh">export CUDA_HOME=/usr/local/cuda
+export CPATH=$CUDA_HOME/include:$CPATH
+export PATH=$CUDA_HOME/bin:$PATH
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+export LIBRARY_PATH=$CUDA_HOME/lib64:$LIBRARY_PATH
+</code></pre>
+<p>⚠️注意：配置完环境变量后需要重新登陆账户或者 <code>source ~/.bashrc</code> 后才能生效。</p>
+<h2 id="2-无-root-权限安装-cuda-toolkit-和-cudnn">2. 无 ROOT 权限安装 CUDA Toolkit 和 cuDNN</h2>
+<h3 id="21-安装-cuda-toolkit">2.1 安装 CUDA Toolkit</h3>
+<p>首先确定你需要下载的 CUDA Toolkit 版本，然后在官网下载对应版本的 CUDA，官网链接：<a href="https://developer.nvidia.com/cuda-toolkit-archive">CUDA Toolkit Archive</a> 。</p>
+<p>这里以 CUDA Toolkit 12.1.0 为例，根据服务器的架构以及版本进行选择，最后的 <strong>Installer Type</strong> 选择 <strong>runfile(local)</strong> 。</p>
+<div align="center">
+<img src="cuda_download_1.png" alt="" width="90%"/>
+图 1. CUDA 安装包下载页面截图1
+</div>
+<p>在选择完毕之后下方会出现对应的下载命令，我们<strong>仅运行</strong> <code>wget</code> 命令（红框中圈出的命令）下载对应文件，由于没有 ROOT 权限，所以无法 sudo 运行该脚本。</p>
+<div align="center">
+<img src="cuda_download_2.png" alt="" width="100%"/>
+图 2. CUDA 安装包下载页面截图2
+</div>
+<p>同时由于我们没有 ROOT 权限，所以安装的 CUDA Toolkit 不能放置在 <code>/usr/local/</code> 目录中，<strong>我们需要提前创建一个安装 CUDA Toolkit 的目录，在之后执行安装文件时会用到</strong>，如：<code>/home/gavin/environment/cuda-12.1</code>。</p>
+<p>之后通过下方的命令给该脚本添加运行权限，然后开始运行安装脚本（可能会卡）：</p>
+<pre><code class="language-sh">chmod +x cuda_*.run
+sh cuda_*.run
+</code></pre>
+<p>由于我们下载的 CUDA 安装包内同时包含 <strong>CUDA Driver</strong> 和 <strong>CUDA Toolkit</strong>，所以这里会有这个提示，我们不安装驱动，没有影响，选择 <code>Continue</code>。</p>
+<div align="center">
+<img src="cuda_install_1.png" alt="" width="80%"/>
+图 3. CUDA 安装页面截图1
+</div>
+<p>输入 <code>accept</code> 同意用户协议（也没法不同意）</p>
+<div align="center">
+<img src="cuda_install_2.png" alt="" width="80%"/>
+图 4. CUDA 安装页面截图2
+</div>
+<p><strong>使用回车将除 <code>CUDA Toolkit 12.1</code> 以外的全部取消勾选，之后不要选 <code>Install</code> ，选择 <code>Options</code> 。</strong></p>
+<div align="center">
+<img src="cuda_install_3.png" alt="" width="80%"/>
+图 5. CUDA 安装页面截图3
+</div>
+<p>选择 <code>Toolkit Options</code> 进行设置。</p>
+<div align="center">
+<img src="cuda_install_4.png" alt="" width="80%"/>
+图 6. CUDA 安装页面截图4
+</div>
+<p>取消选择所有选项，并且更改安装路径（选择 <code>Change Toolkit Install Path</code> ）。</p>
+<div align="center">
+<img src="cuda_install_5.png" alt="" width="80%"/>
+图 7. CUDA 安装页面截图5
+</div>
+<p>将前方提前创建好的目录填写进去（建议复制粘贴，不会出错，<code>pwd</code> 可以获得当前位置的绝对路径），之后回车确认，</p>
+<div align="center">
+<img src="cuda_install_6.png" alt="" width="80%"/>
+图 8. CUDA 安装页面截图6
+</div>
+<p>然后一路选择 <code>Done</code> 回退到如图5的界面选择 <code>Install</code> ，运行结束后会有如下信息。</p>
+<div align="center">
+<img src="cuda_install_7.png" alt="" width="100%"/>
+图 9. CUDA 安装页面截图7
+</div>
+<h2 id="22-启用刚刚安装的-cuda-toolkit">2.2 启用刚刚安装的 CUDA Toolkit</h2>
+<p>配置环境变量，如同 1.1 章节的操作。</p>
+<p>将下方命令添加到 <code>~/.bashrc</code> 文件中，<code>CUDA_HOME</code> 环境变量就是 CUDA 对应位置（如果有多个版本，可以自行选择启用哪个版本）。</p>
+<pre><code class="language-sh">export CUDA_HOME=/home/gavin/environment/cuda-12.1 # 选择你安装的路径
+export CPATH=$CUDA_HOME/include:$CPATH
+export PATH=$CUDA_HOME/bin:$PATH
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+export LIBRARY_PATH=$CUDA_HOME/lib64:$LIBRARY_PATH
+</code></pre>
+<p>⚠️注意：配置完环境变量后需要重新登陆账户或者 <code>source ~/.bashrc</code> 后才能生效。</p>
+<p>在终端中运行 <code>nvcc -V</code> 后，输出的信息应该匹配你所安装的 <code>CUDA Toolkit</code> 版本。</p>
+<div align="center">
+<img src="cuda_nvcc_1.png" alt="" width="50%"/>
+图 10. 环境变量配置完毕后检测
+</div>
+<h2 id="23-安装对应版本的-cudnn">2.3 安装对应版本的 cuDNN</h2>
+<p>根据你安装的 <code>CUDA Toolkit</code> 版本在 <a href="https://developer.nvidia.com/rdp/cudnn-archive">cuDNN Archive</a> 中选择对应的 cuDNN 包。</p>
+<div align="center">
+<img src="cudnn_install_1.png" alt="" width="90%"/>
+图 11. cuDNN Archive 网页截图
+</div>
+<p>这里选择 <code>Linux x86_64 (Tar)</code> 包，不选择 <code>Deb</code> 包，因为我们是无 ROOT 权限自定义安装的路径，而且 <code>cuDNN</code> 的安装非常简单，直接拷贝文件就可以了。</p>
+<div align="center">
+<img src="cudnn_install_2.png" alt="" width="90%"/>
+图 12. cuDNN 下载对应 Tar 包
+</div>
+<p>下载后使用下方命令将压缩包解压：</p>
+<pre><code class="language-sh">xz -d cudnn-*-archive.tar.xz
+tar -xvf cudnn-*-archive.tar
+</code></pre>
+<p>之后复制对应文件到 <code>CUDA Toolkit</code> 安装目录</p>
+<pre><code class="language-sh">cp cudnn-*-archive/include/cudnn*.h $CUDA_HOME/include
+cp -P cudnn-*-archive/lib/libcudnn* $CUDA_HOME/lib64
+chmod a+r $CUDA_HOME/include/cudnn*.h $CUDA_HOME/lib64/libcudnn*
+</code></pre>
+<h2 id="24-注意-pytorch-无法查看-cuda-和-cudnn-版本">2.4 ⚠️注意 PyTorch 无法查看 CUDA 和 cuDNN 版本</h2>
+<p>这个其实显示的是当前 PyTorch 支持的<strong>最高</strong> CUDA 版本，并不是当前的 CUDA 版本号。</p>
+<div align="center">
+<img src="cuda_version_1.png" alt="" width="25%"/>
+图 13. torch.version.cuda 的输出截图
+</div>
+<p>这个其实显示的是 PyTorch 内部捆绑的 cuDNN 版本，而不是本地安装的 cuDNN 版本。输出的 90100 则表示内部捆绑的 cuDNN 版本为 9.1.0 。</p>
+<div align="center">
+<img src="cudnn_version_1.png" alt="" width="40%"/>
+图 13. torch.backends.cudnn.version() 的输出截图
+</div>
+</article>
+
+
+      
+
+      
+
+
+
+      
+
+      
+  <div
+    class="-mx-2 mt-4 flex flex-col border-t px-2 pt-4 md:flex-row md:justify-between"
+  >
+    <div>
+      
+    </div>
+    <div class="mt-4 md:mt-0 md:text-right">
+      
+        <span class="text-primary-text block font-bold">Next</span>
+        <a href="https://gavinsun0921.github.io/posts/paper-research-02/" class="block">A Brief Exploration to Variational Autoencoder (VAE) with Code Implementation</a>
+      
+    </div>
+  </div>
+
+
+      
+
+
+
+  <script id="utterances" src="https://utteranc.es/client.js"
+            issue-term=pathname
+            repo=GavinSun0921/gavinsun0921.github.io
+              theme=github-light
+        crossorigin="anonymous"
+        async>
+</script>
+<script>
+    if (storageColorScheme == "Auto") {
+      document.getElementById('utterances').setAttribute('theme', 'preferred-color-scheme')
+    } else if (storageColorScheme == "Dark") {
+      document.getElementById('utterances').setAttribute('theme', 'github-dark')
+    }
+</script>
+
+    </div>
+    
+      <div class="col-span-2">
+        
+          
+<div class="bg-secondary-bg prose max-w-none rounded p-6">
+  <h3>Series of Posts</h3>
+  
+    
+      <a href="https://gavinsun0921.github.io/posts/install_cuda_and_cudnn/" class="no-underline">无ROOT权限在服务器安装CUDA和CUDNN教程</a>
+      <br />
+    
+  
+</div>
+
+        
+        
+          <div
+  class="
+    bg-primary-bg
+   prose sticky top-16 z-10 hidden px-6 py-4 lg:block"
+>
+  <h3>On This Page</h3>
+</div>
+<div
+  class="sticky-toc  hidden px-6 pb-6 lg:block"
+>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-这篇教程是做什么的">1. 这篇教程是做什么的？</a>
+      <ul>
+        <li><a href="#11-使用服务器上已有的-cuda-toolkit-和-cudnn">1.1 使用服务器上已有的 CUDA Toolkit 和 cuDNN</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-无-root-权限安装-cuda-toolkit-和-cudnn">2. 无 ROOT 权限安装 CUDA Toolkit 和 cuDNN</a>
+      <ul>
+        <li><a href="#21-安装-cuda-toolkit">2.1 安装 CUDA Toolkit</a></li>
+      </ul>
+    </li>
+    <li><a href="#22-启用刚刚安装的-cuda-toolkit">2.2 启用刚刚安装的 CUDA Toolkit</a></li>
+    <li><a href="#23-安装对应版本的-cudnn">2.3 安装对应版本的 cuDNN</a></li>
+    <li><a href="#24-注意-pytorch-无法查看-cuda-和-cudnn-版本">2.4 ⚠️注意 PyTorch 无法查看 CUDA 和 cuDNN 版本</a></li>
+  </ul>
+</nav>
+</div>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    enableStickyToc();
+  });
+</script>
+
+        
+      </div>
+    
+
+    
+    
+  </div>
+
+  
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        hljs.highlightAll();
+      });
+    </script>
+
+          </div>
+        </div>
+      
+    </main>
+    <footer class="pl-scrollbar">
+      <div class="mx-auto w-full max-w-screen-xl"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2023 <a href="https://github.com/GavinSun0921">Gavin Sun</a>
+ &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+    </footer>
+  </body>
+</html>

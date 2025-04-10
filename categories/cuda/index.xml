@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CUDA on Gavin&#39;s Blog</title>
+    <link>https://gavinsun0921.github.io/categories/cuda/</link>
+    <description>Recent content in CUDA on Gavin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2023 &lt;a href=&#34;https://github.com/GavinSun0921&#34;&gt;Gavin Sun&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Thu, 10 Apr 2025 15:18:39 +0800</lastBuildDate>
+    <atom:link href="https://gavinsun0921.github.io/categories/cuda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>无ROOT权限在服务器安装CUDA和CUDNN教程</title>
+      <link>https://gavinsun0921.github.io/posts/install_cuda_and_cudnn/</link>
+      <pubDate>Thu, 10 Apr 2025 15:18:39 +0800</pubDate>
+      <guid>https://gavinsun0921.github.io/posts/install_cuda_and_cudnn/</guid>
+      <description>1. 这篇教程是做什么的？ 在科研工作中，普通用户在服务器上需要使用的 CUDA Toolkit 版本和服务器上已经安装的 CUDA Toolkit 版本不一定一致，在没有 ROOT 权限的情况下，也可以安装需要的</description>
+    </item>
+  </channel>
+</rss>

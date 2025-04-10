@@ -8,8 +8,15 @@
     <language>en</language>
     <copyright>&amp;copy; 2023 &lt;a href=&#34;https://github.com/GavinSun0921&#34;&gt;Gavin Sun&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Mon, 12 Feb 2024 13:53:33 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 15:18:39 +0800</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Manual</title>
+      <link>https://gavinsun0921.github.io/series/technical-manual/</link>
+      <pubDate>Thu, 10 Apr 2025 15:18:39 +0800</pubDate>
+      <guid>https://gavinsun0921.github.io/series/technical-manual/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Paper Research</title>
       <link>https://gavinsun0921.github.io/series/paper-research/</link>
