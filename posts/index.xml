@@ -8,8 +8,15 @@
     <language>en</language>
     <copyright>&amp;copy; 2023 &lt;a href=&#34;https://github.com/GavinSun0921&#34;&gt;Gavin Sun&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Thu, 10 Apr 2025 15:18:39 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jul 2025 19:25:39 +0800</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neovim简单C&#43;&#43;开发环境配置过程</title>
+      <link>https://gavinsun0921.github.io/posts/neovim01/</link>
+      <pubDate>Wed, 23 Jul 2025 19:25:39 +0800</pubDate>
+      <guid>https://gavinsun0921.github.io/posts/neovim01/</guid>
+      <description>0. 环境基础 系统平台配置： 图 1. 操作系统环境配置 Neovim版本： $ nvim --version NVIM v0.11.3 Build type: Release LuaJIT 2.1.1748459687 Run &amp;quot;nvim -V1 -v&amp;quot; for more info 配置目标：一个轻量化的 C++ 开发环境，带有自动补全、语法高</description>
+    </item>
     <item>
       <title>无ROOT权限在服务器安装CUDA和CUDNN教程</title>
       <link>https://gavinsun0921.github.io/posts/install_cuda_and_cudnn/</link>
