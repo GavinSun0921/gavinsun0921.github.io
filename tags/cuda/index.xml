@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CUDA on Gavin&#39;s Home</title>
-    <link>http://localhost:1313/tags/cuda/</link>
+    <link>https://gavinsun0921.github.io/tags/cuda/</link>
     <description>Recent content in CUDA on Gavin&#39;s Home</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cuda/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gavinsun0921.github.io/tags/cuda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>无ROOT权限在服务器安装CUDA和CUDNN教程</title>
-      <link>http://localhost:1313/posts/install_cuda_and_cudnn/</link>
+      <link>https://gavinsun0921.github.io/posts/install_cuda_and_cudnn/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/install_cuda_and_cudnn/</guid>
+      <guid>https://gavinsun0921.github.io/posts/install_cuda_and_cudnn/</guid>
       <description>这篇教程为无ROOT权限的Ubuntu服务器用户提供了完整的CUDA Toolkit与cuDNN安装指南。采用静默安装模式将CUDA Toolkit部署到用户目录，通过交互式界面调整安装路径并仅保留必要组件。特别指出PyTorch内置版本与本地安装版本的区别，避免开发者误判环境状态。</description>
     </item>
   </channel>

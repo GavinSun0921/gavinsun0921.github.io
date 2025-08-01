@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>DPM on Gavin&#39;s Home</title>
-    <link>http://localhost:1313/tags/dpm/</link>
+    <link>https://gavinsun0921.github.io/tags/dpm/</link>
     <description>Recent content in DPM on Gavin&#39;s Home</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/dpm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gavinsun0921.github.io/tags/dpm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Brief Exploration to Variational Autoencoder (VAE) with Code Implementation</title>
-      <link>http://localhost:1313/posts/paper-research-02/</link>
+      <link>https://gavinsun0921.github.io/posts/paper-research-02/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/paper-research-02/</guid>
+      <guid>https://gavinsun0921.github.io/posts/paper-research-02/</guid>
       <description>Learn variational autoencoder (VAE) by reading and analyzing the paper: &amp;ldquo;Auto-Encoding Variational Bayes&amp;rdquo;. This post will introduce the basic work of VAE, including the derivation of formulas and simple code verification.</description>
     </item>
     <item>
       <title>[NeurIPS&#39;19 Oral] Generative Modeling by Estimating Gradients of the Data Distribution</title>
-      <link>http://localhost:1313/posts/fast-paper-reading-03/</link>
+      <link>https://gavinsun0921.github.io/posts/fast-paper-reading-03/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fast-paper-reading-03/</guid>
+      <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-03/</guid>
       <description>This paper introduce a new generative model where samples are produced via Langevin dynamics using gradients of the data distribution estimated with score matching. And it is important to learn Score-Based generative network and Ito diffusion SDE.</description>
     </item>
     <item>
       <title>[T-PAMI&#39;23] Image Super-Resolution via Iterative Refinement</title>
-      <link>http://localhost:1313/posts/fast-paper-reading-02/</link>
+      <link>https://gavinsun0921.github.io/posts/fast-paper-reading-02/</link>
       <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fast-paper-reading-02/</guid>
+      <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-02/</guid>
       <description>Image super-resolution with conditional diffusion model.</description>
     </item>
     <item>
       <title>[CVPR&#39;22] Deblurring via Stochastic Refinement</title>
-      <link>http://localhost:1313/posts/fast-paper-reading-01/</link>
+      <link>https://gavinsun0921.github.io/posts/fast-paper-reading-01/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fast-paper-reading-01/</guid>
+      <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-01/</guid>
       <description>Image deblurring with &amp;ldquo;predict-and-refine&amp;rdquo; conditional diffusion model. An brand new strategy for ill-posed problem.</description>
     </item>
     <item>
       <title>A Brief Exploration to Diffusion Probabilistic Models with Code Implementation</title>
-      <link>http://localhost:1313/posts/paper-research-01/</link>
+      <link>https://gavinsun0921.github.io/posts/paper-research-01/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/paper-research-01/</guid>
+      <guid>https://gavinsun0921.github.io/posts/paper-research-01/</guid>
       <description>Learn diffusion probabilistic models (DPM) by reading and analyzing the papers: &amp;ldquo;Deep Unsupervised Learning using Nonequilibrium Thermodynamics&amp;rdquo; and &amp;ldquo;Denoising Diffusion Probabilistic Models&amp;rdquo;. This post will introduce the basic work of DPM, including the derivation of formulas and simple code verification.</description>
     </item>
   </channel>

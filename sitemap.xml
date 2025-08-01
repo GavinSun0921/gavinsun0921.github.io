@@ -2,88 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://gavinsun0921.github.io/</loc>
     <lastmod>2025-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://gavinsun0921.github.io/posts/</loc>
     <lastmod>2025-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fast-paper-reading-04/</loc>
+    <loc>https://gavinsun0921.github.io/posts/fast-paper-reading-04/</loc>
     <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/4d-reconstruction/</loc>
+    <loc>https://gavinsun0921.github.io/tags/4d-reconstruction/</loc>
     <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://gavinsun0921.github.io/categories/</loc>
     <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/computer-vision/</loc>
+    <loc>https://gavinsun0921.github.io/tags/computer-vision/</loc>
     <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/paper-skim-read/</loc>
+    <loc>https://gavinsun0921.github.io/categories/paper-skim-read/</loc>
     <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/point-tracking/</loc>
+    <loc>https://gavinsun0921.github.io/tags/point-tracking/</loc>
     <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://gavinsun0921.github.io/tags/</loc>
     <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/neovim/</loc>
+    <loc>https://gavinsun0921.github.io/tags/neovim/</loc>
     <lastmod>2025-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/neovim01/</loc>
+    <loc>https://gavinsun0921.github.io/posts/neovim01/</loc>
     <lastmod>2025-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/technical-manual/</loc>
+    <loc>https://gavinsun0921.github.io/categories/technical-manual/</loc>
     <lastmod>2025-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cuda/</loc>
+    <loc>https://gavinsun0921.github.io/tags/cuda/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/install_cuda_and_cudnn/</loc>
+    <loc>https://gavinsun0921.github.io/posts/install_cuda_and_cudnn/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/paper-research-02/</loc>
+    <loc>https://gavinsun0921.github.io/posts/paper-research-02/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/computer-vision/</loc>
+    <loc>https://gavinsun0921.github.io/categories/computer-vision/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/deep-learning/</loc>
+    <loc>https://gavinsun0921.github.io/tags/deep-learning/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/diffusion/</loc>
+    <loc>https://gavinsun0921.github.io/categories/diffusion/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/diffusion/</loc>
+    <loc>https://gavinsun0921.github.io/tags/diffusion/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dpm/</loc>
+    <loc>https://gavinsun0921.github.io/tags/dpm/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fast-paper-reading-03/</loc>
+    <loc>https://gavinsun0921.github.io/posts/fast-paper-reading-03/</loc>
     <lastmod>2023-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/image-generation/</loc>
+    <loc>https://gavinsun0921.github.io/tags/image-generation/</loc>
     <lastmod>2023-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fast-paper-reading-02/</loc>
+    <loc>https://gavinsun0921.github.io/posts/fast-paper-reading-02/</loc>
     <lastmod>2023-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/low-level-vision/</loc>
+    <loc>https://gavinsun0921.github.io/tags/low-level-vision/</loc>
     <lastmod>2023-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fast-paper-reading-01/</loc>
+    <loc>https://gavinsun0921.github.io/posts/fast-paper-reading-01/</loc>
     <lastmod>2023-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/paper-research-01/</loc>
+    <loc>https://gavinsun0921.github.io/posts/paper-research-01/</loc>
     <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://gavinsun0921.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/archive/</loc>
+    <loc>https://gavinsun0921.github.io/archive/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://gavinsun0921.github.io/search/</loc>
   </url>
 </urlset>
