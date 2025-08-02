@@ -10,9 +10,9 @@
     <atom:link href="https://gavinsun0921.github.io/tags/point-tracking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[ICCV&#39;25] SpatialTrackerV2: 3D Point Tracking Made Easy</title>
-      <link>https://gavinsun0921.github.io/posts/fast-paper-reading-04/spatialtrackerv2/</link>
+      <link>https://gavinsun0921.github.io/posts/fast-paper-reading-04/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-04/spatialtrackerv2/</guid>
+      <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-04/</guid>
       <description>本文提出了一个 feed-forward 3D point tracking architecture，它将 video depth、camera pose 和 object motion 进行统一建模和 end-to-end 优化，并通过在 17 个异构数据集上的可扩展训练，实现了 SOTA 的 3D 追踪精度和推理速度。</description>
     </item>
   </channel>
