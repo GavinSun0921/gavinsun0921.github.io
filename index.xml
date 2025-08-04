@@ -6,8 +6,15 @@
     <description>Recent content on Gavin&#39;s Home</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ICCV&#39;25 Oral] Back on Track: Bundle Adjustment for Dynamic Scene Reconstruction 速读</title>
+      <link>https://gavinsun0921.github.io/posts/fast-paper-reading-05/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-05/</guid>
+      <description>本文巧妙地提出了一种“运动解耦”机制，通过一个学习的 3D Tracker 将动态物体的自身运动从观测运动中剥离，使得经典的 Bundle Adjustment 能够首次被统一地应用于含动态物体的场景中，极大地提升了动态场景重建中的相机位姿精度和三维重建质量。</description>
+    </item>
     <item>
       <title>[ICCV&#39;25] SpatialTrackerV2: 3D Point Tracking Made Easy 速读</title>
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-04/</link>
