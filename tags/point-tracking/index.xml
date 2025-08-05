@@ -16,14 +16,14 @@
       <description>本文提出了一个 feed-forward 框架，通过引入一种创新的、依赖于时间的 pointmap 表示，并利用一个双分支 Transformer 架构，实现了在统一的世界坐标系中同时进行动态场景的密集追踪与三维重建。</description>
     </item>
     <item>
-      <title>[ICCV&#39;25 Oral] Back on Track: Bundle Adjustment for Dynamic Scene Reconstruction 速读</title>
+      <title>[ICCV&#39;25 Oral] Back on Track: Bundle Adjustment for Dynamic Scene Reconstruction 阅读报告</title>
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-05/</link>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-05/</guid>
       <description>本文巧妙地提出了一种“运动解耦”机制，通过一个学习的 3D Tracker 将动态物体的自身运动从观测运动中剥离，使得经典的 Bundle Adjustment 能够首次被统一地应用于含动态物体的场景中，极大地提升了动态场景重建中的相机位姿精度和三维重建质量。</description>
     </item>
     <item>
-      <title>[ICCV&#39;25] SpatialTrackerV2: 3D Point Tracking Made Easy 速读</title>
+      <title>[ICCV&#39;25] SpatialTrackerV2: 3D Point Tracking Made Easy 阅读报告</title>
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-04/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-04/</guid>

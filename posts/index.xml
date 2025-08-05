@@ -16,14 +16,14 @@
       <description>本文提出了一个 feed-forward 框架，通过引入一种创新的、依赖于时间的 pointmap 表示，并利用一个双分支 Transformer 架构，实现了在统一的世界坐标系中同时进行动态场景的密集追踪与三维重建。</description>
     </item>
     <item>
-      <title>[ICCV&#39;25 Oral] Back on Track: Bundle Adjustment for Dynamic Scene Reconstruction 速读</title>
+      <title>[ICCV&#39;25 Oral] Back on Track: Bundle Adjustment for Dynamic Scene Reconstruction 阅读报告</title>
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-05/</link>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-05/</guid>
       <description>本文巧妙地提出了一种“运动解耦”机制，通过一个学习的 3D Tracker 将动态物体的自身运动从观测运动中剥离，使得经典的 Bundle Adjustment 能够首次被统一地应用于含动态物体的场景中，极大地提升了动态场景重建中的相机位姿精度和三维重建质量。</description>
     </item>
     <item>
-      <title>[ICCV&#39;25] SpatialTrackerV2: 3D Point Tracking Made Easy 速读</title>
+      <title>[ICCV&#39;25] SpatialTrackerV2: 3D Point Tracking Made Easy 阅读报告</title>
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-04/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-04/</guid>
@@ -51,21 +51,21 @@
       <description>Learn variational autoencoder (VAE) by reading and analyzing the paper: &amp;ldquo;Auto-Encoding Variational Bayes&amp;rdquo;. This post will introduce the basic work of VAE, including the derivation of formulas and simple code verification.</description>
     </item>
     <item>
-      <title>[NeurIPS&#39;19 Oral] Generative Modeling by Estimating Gradients of the Data Distribution 速读</title>
+      <title>[NeurIPS&#39;19 Oral] Generative Modeling by Estimating Gradients of the Data Distribution 阅读报告</title>
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-03/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-03/</guid>
       <description>This paper introduce a new generative model where samples are produced via Langevin dynamics using gradients of the data distribution estimated with score matching. And it is important to learn Score-Based generative network and Ito diffusion SDE.</description>
     </item>
     <item>
-      <title>[T-PAMI&#39;23] Image Super-Resolution via Iterative Refinement 速读</title>
+      <title>[T-PAMI&#39;23] Image Super-Resolution via Iterative Refinement 阅读报告</title>
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-02/</link>
       <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-02/</guid>
       <description>Image super-resolution with conditional diffusion model.</description>
     </item>
     <item>
-      <title>[CVPR&#39;22] Deblurring via Stochastic Refinement 速读</title>
+      <title>[CVPR&#39;22] Deblurring via Stochastic Refinement 阅读报告</title>
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-01/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-01/</guid>
