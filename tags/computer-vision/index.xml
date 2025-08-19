@@ -6,8 +6,15 @@
     <description>Recent content in Computer Vision on Gavin&#39;s Home</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4D动态场景重建研究方向综述与选题建议</title>
+      <link>https://gavinsun0921.github.io/posts/paper-research-03/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gavinsun0921.github.io/posts/paper-research-03/</guid>
+      <description>探讨一下当前时代下博士生在 4D Reconstruction &amp;amp; Generation 研究方向上，面对高校科研环境有限算力，以及目标是CVPR 2026的情况下，对该方向的一些选题思考。</description>
+    </item>
     <item>
       <title>[ICCV&#39;25] St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World 阅读报告</title>
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-06/</link>
