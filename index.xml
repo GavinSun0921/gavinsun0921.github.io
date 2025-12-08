@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Gavin&#39;s Home</title>
+    <title>Gavin Sun · Spatial Intelligence</title>
     <link>https://gavinsun0921.github.io/</link>
-    <description>Recent content on Gavin&#39;s Home</description>
+    <description>Recent content on Gavin Sun · Spatial Intelligence</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
@@ -97,53 +97,10 @@
       <link>https://gavinsun0921.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/about/</guid>
-      <description>&lt;h2 id=&#34;-hi-im-gavin-sun-孙国栋&#34;&gt;👋 Hi, I&amp;rsquo;m Gavin Sun (孙国栋)&lt;/h2&gt;
-&lt;p&gt;I&amp;rsquo;m a PhD student at the &lt;strong&gt;Northwestern Polytechnical University&lt;/strong&gt;, advised by Prof. &lt;a href=&#34;https://scholar.google.com/citations?user=fddAbqsAAAAJ&amp;amp;hl=en&#34;&gt;Yuchao Dai&lt;/a&gt;. My research focuses on &lt;strong&gt;3D/4D Reconstruction &amp;amp; Generation&lt;/strong&gt;. I&amp;rsquo;m especially interested in developing robust and scalable methods for dynamic scene understanding, and exploring how tracking and generative priors can enhance 4D representations.&lt;/p&gt;
-&lt;h2 id=&#34;-education&#34;&gt;📚 Education&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;PhD Student&lt;/strong&gt; (2025 - Present)
-&lt;ul&gt;
-&lt;li&gt;Northwestern Polytechnical University&lt;/li&gt;
-&lt;li&gt;Majoring in &lt;strong&gt;Information and Communication Engineering&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Master Degree&lt;/strong&gt; (2022 - 2025)
-&lt;ul&gt;
-&lt;li&gt;Northwestern Polytechnical University&lt;/li&gt;
-&lt;li&gt;Majoring in &lt;strong&gt;Artificial Intelligence&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bachelor Degree&lt;/strong&gt; (2018-2022)
-&lt;ul&gt;
-&lt;li&gt;Shandong University of Science and Technology&lt;/li&gt;
-&lt;li&gt;Majoring in &lt;strong&gt;Statistics&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-selected-awards&#34;&gt;🏆 Selected Awards&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2022 &amp;ldquo;航天宏图杯&amp;rdquo; 遥感影像智能处理算法大赛 - 国家自然学科基金委信息科学部 - &lt;strong&gt;全国冠军&lt;/strong&gt;（十万元）&lt;/li&gt;
-&lt;li&gt;2023 &amp;ldquo;国丰东方慧眼杯&amp;rdquo; 遥感影响智能处理算法大赛 - 国家自然学科基金委信息科学部 - &lt;strong&gt;全国亚军&lt;/strong&gt;（三万元）&lt;/li&gt;
-&lt;li&gt;中国高校计算机大赛 2020团体程序设计天梯赛 - 全国高等学校计算机教育研究会 - &lt;strong&gt;团队金奖&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;The 2020 ICPC Asia Nanjing Regional Contest - The International Collegiate Programming Contest Foundation - &lt;strong&gt;Silver Medal&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;The 2019 ICPC Asia Shanghai Regional Contest - The International Collegiate Programming Contest Foundation - &lt;strong&gt;Bronze Medal&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;2024 华为软件精英挑战赛——普朗克计划 - 华为技术有限公司 - 西北赛区二等奖&lt;/li&gt;
-&lt;li&gt;昇腾AI创新大赛2023全国总决赛 - 华为技术有限公司 - 铜奖&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-selected-publications&#34;&gt;📖 Selected Publications&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Cong Wang, &lt;strong&gt;Guodong Sun&lt;/strong&gt; (共同第一作者 &amp;amp; 第一学生作者), Cailing Wang, Zixuan Gao and Hongwei Wang, &amp;ldquo;Monte Carlo-Based Restoration of Images Degraded by Atmospheric Turbulence,&amp;rdquo; in &lt;strong&gt;IEEE Transactions on Systems, Man, and Cybernetics: Systems&lt;/strong&gt;, vol. 54, no. 11, pp. 6610-6620, Nov. 2024, doi: 10.1109/TSMC.2024.3399464.&lt;/li&gt;
-&lt;li&gt;Qixiang Ma, Jian Wu, Runze Fan, &lt;strong&gt;Guodong Sun&lt;/strong&gt;, Xuehuai Shi, &amp;ldquo;ViP-Fluid: Visual Perception Driven Method for VR Fluid Rendering,&amp;rdquo; &lt;strong&gt;2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)&lt;/strong&gt;, Bellevue, WA, USA, 2024, pp. 359-367, doi: 10.1109/ISMAR62088.2024.00050.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Guodong Sun&lt;/strong&gt;, Qixiang Ma, Liqiang Zhang, Hongwei Wang, Zixuan Gao, Haotian Zhang, &amp;ldquo;Probabilistic Prior Driven Attention Mechanism Based on Diffusion Model for Imaging Through Atmospheric Turbulence,&amp;rdquo; arXiv preprint, arXiv:2411.10321, 2024.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;-connect-with-me&#34;&gt;🌐 Connect With Me&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Google Scholar&lt;/strong&gt;: &lt;a href=&#34;https://scholar.google.com/citations?user=IwscJpsAAAAJ&amp;amp;hl=en&#34;&gt;Gavin Sun&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/GavinSun0921&#34;&gt;@GavinSun0921&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:gavinsun0921@foxmail.com&#34;&gt;gavinsun0921@foxmail.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;Feel free to reach out if you&amp;rsquo;re interested in collaboration or have any questions about my research!&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;gavin-sun-孙国栋&#34;&gt;Gavin Sun (孙国栋)&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m a PhD student at the &lt;strong&gt;Northwestern Polytechnical University&lt;/strong&gt;, advised by Prof. &lt;a href=&#34;https://scholar.google.com/citations?user=fddAbqsAAAAJ&amp;amp;hl=en&#34;&gt;Yuchao Dai&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My research focuses on &lt;strong&gt;4D Reconstruction &amp;amp; Generation&lt;/strong&gt; and &lt;strong&gt;Spatial Intelligence&lt;/strong&gt;. I am particularly interested in understanding dynamic scenes and building coherent spatio-temporal representations of the physical world. My current work explores how &lt;strong&gt;tracking&lt;/strong&gt;, &lt;strong&gt;geometric structure&lt;/strong&gt;, and &lt;strong&gt;generative priors&lt;/strong&gt; can be integrated to achieve robust and scalable 4D representations.&lt;/p&gt;
+&lt;p&gt;This page serves as a brief academic profile, while the rest of the site functions as a personal research log containing notes, experiments, and occasional audio reflections.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
