@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Video Generation on Gavin&#39;s Home</title>
+    <link>https://gavinsun0921.github.io/tags/video-generation/</link>
+    <description>Recent content in Video Generation on Gavin&#39;s Home</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gavinsun0921.github.io/tags/video-generation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[arXiv&#39;2512] Generative Video Motion Editing with 3D Point Tracks 阅读报告</title>
+      <link>https://gavinsun0921.github.io/posts/fast-paper-reading-07/</link>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-07/</guid>
+      <description>这篇文章提出了一种基于 3D 点轨迹 (3D Point Tracks) 的视频生成式编辑框架，能够同时精确控制摄像机运动和物体运动。</description>
+    </item>
+  </channel>
+</rss>
