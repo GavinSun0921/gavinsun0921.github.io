@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gaussian Splatting on Gavin Sun · Spatial Intelligence</title>
+    <link>https://gavinsun0921.github.io/tags/gaussian-splatting/</link>
+    <description>Recent content in Gaussian Splatting on Gavin Sun · Spatial Intelligence</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gavinsun0921.github.io/tags/gaussian-splatting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ICCV&#39;25 Highlight] Shape of Motion: 4D Reconstruction from a Single Video 阅读报告</title>
+      <link>https://gavinsun0921.github.io/posts/fast-paper-reading-08/</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-08/</guid>
+      <description>这篇文章提出了一种从单目视频中重建动态场景并估计长程 3D 运动轨迹的新方法。</description>
+    </item>
+  </channel>
+</rss>
