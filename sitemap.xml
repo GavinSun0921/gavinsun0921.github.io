@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gavinsun0921.github.io/categories/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/posts/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/tags/server/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/tags/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/categories/technical-manual/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/tags/tutorial/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gavinsun0921.github.io/posts/server-usage-guideline/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gavinsun0921.github.io/posts/fast-paper-reading-09/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,13 +35,7 @@
     <loc>https://gavinsun0921.github.io/tags/camera-pose/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gavinsun0921.github.io/categories/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gavinsun0921.github.io/tags/computer-vision/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gavinsun0921.github.io/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gavinsun0921.github.io/tags/monocular-depth/</loc>
@@ -27,12 +45,6 @@
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gavinsun0921.github.io/tags/point-tracking/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gavinsun0921.github.io/posts/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gavinsun0921.github.io/tags/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gavinsun0921.github.io/posts/fast-paper-reading-08/</loc>
@@ -69,9 +81,6 @@
     <lastmod>2025-07-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gavinsun0921.github.io/posts/neovim01/</loc>
-    <lastmod>2025-07-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gavinsun0921.github.io/categories/technical-manual/</loc>
     <lastmod>2025-07-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gavinsun0921.github.io/tags/cuda/</loc>
