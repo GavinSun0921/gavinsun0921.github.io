@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 21 Oct 2026 12:50:40 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 14:36:50 +0800</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>实验室服务器使用手册</title>
@@ -123,10 +123,7 @@
       <link>https://gavinsun0921.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/about/</guid>
-      <description>&lt;h2 id=&#34;gavin-sun-孙国栋&#34;&gt;Gavin Sun (孙国栋)&lt;/h2&gt;
-&lt;p&gt;I&amp;rsquo;m a PhD student at the &lt;strong&gt;Northwestern Polytechnical University&lt;/strong&gt;, advised by Prof. &lt;a href=&#34;https://scholar.google.com/citations?user=fddAbqsAAAAJ&amp;amp;hl=en&#34;&gt;Yuchao Dai&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;My research focuses on &lt;strong&gt;4D Reconstruction &amp;amp; Generation&lt;/strong&gt; and &lt;strong&gt;Spatial Intelligence&lt;/strong&gt;. I am particularly interested in understanding dynamic scenes and building coherent spatio-temporal representations of the physical world. My current work explores how &lt;strong&gt;tracking&lt;/strong&gt;, &lt;strong&gt;geometric structure&lt;/strong&gt;, and &lt;strong&gt;generative priors&lt;/strong&gt; can be integrated to achieve robust and scalable 4D representations.&lt;/p&gt;
-&lt;p&gt;This page serves as a brief academic profile, while the rest of the site functions as a personal research log containing notes, experiments, and occasional audio reflections.&lt;/p&gt;</description>
+      <description>Gavin Sun (孙国栋) is a PhD student at Northwestern Polytechnical University, working on 4D reconstruction, generation, and spatial intelligence.</description>
     </item>
   </channel>
 </rss>
