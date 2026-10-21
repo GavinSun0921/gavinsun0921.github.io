@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 21 Oct 2026 11:44:57 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 14:40:23 +0800</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>实验室服务器使用手册</title>
@@ -25,7 +25,7 @@
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-09/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-09/</guid>
-      <description>动态场景的 3D 重建一直是个硬骨头，通常需要堆叠光流、深度、位姿等多个模型。Google DeepMind 刚刚发布的 D4RT 提出了一种大道至简的思路：将所有几何任务降维成一个通用的“坐标查询”函数。它不仅在单次前馈中解决了 SLAM + 重建 + 跟踪，还跑出了 200+ FPS 的惊人速度。</description>
+      <description>动态场景的 3D 重建一直是个硬骨头，通常需要堆叠光流、深度、位姿等多个模型。Google DeepMind 的 D4RT 提出了一种大道至简的思路：将所有几何任务降维成一个通用的“坐标查询”函数。它不仅在单次前馈中解决了 SLAM + 重建 + 跟踪，还跑出了 200+ FPS 的惊人速度。</description>
     </item>
     <item>
       <title>[ICCV&#39;25 Highlight] Shape of Motion: 4D Reconstruction from a Single Video 阅读报告</title>
@@ -46,7 +46,7 @@
       <link>https://gavinsun0921.github.io/posts/paper-research-03/</link>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/paper-research-03/</guid>
-      <description>探讨一下当前时代下博士生在 4D Reconstruction &amp;amp; Generation 研究方向上，面对高校科研环境有限算力，以及目标是CVPR 2026的情况下，对该方向的一些选题思考。</description>
+      <description>记录 2025 年 8 月时，在高校科研环境有限算力下，围绕 CVPR 2026 投稿目标对 4D Reconstruction &amp;amp; Generation 方向的一些选题思考。</description>
     </item>
     <item>
       <title>[ICCV&#39;25] St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World 阅读报告</title>

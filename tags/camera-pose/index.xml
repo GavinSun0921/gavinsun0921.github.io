@@ -11,14 +11,14 @@
     </image>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 21 Oct 2026 11:44:57 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 14:40:23 +0800</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/tags/camera-pose/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[CVPR&#39;26] Efficiently Reconstructing Dynamic Scenes One 🎯 D4RT at a Time 阅读报告</title>
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-09/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-09/</guid>
-      <description>动态场景的 3D 重建一直是个硬骨头，通常需要堆叠光流、深度、位姿等多个模型。Google DeepMind 刚刚发布的 D4RT 提出了一种大道至简的思路：将所有几何任务降维成一个通用的“坐标查询”函数。它不仅在单次前馈中解决了 SLAM + 重建 + 跟踪，还跑出了 200+ FPS 的惊人速度。</description>
+      <description>动态场景的 3D 重建一直是个硬骨头，通常需要堆叠光流、深度、位姿等多个模型。Google DeepMind 的 D4RT 提出了一种大道至简的思路：将所有几何任务降维成一个通用的“坐标查询”函数。它不仅在单次前馈中解决了 SLAM + 重建 + 跟踪，还跑出了 200+ FPS 的惊人速度。</description>
     </item>
   </channel>
 </rss>
