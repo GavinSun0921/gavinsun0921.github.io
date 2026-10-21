@@ -4,9 +4,14 @@
     <title>Monocular Depth on Gavin Sun · Spatial Intelligence</title>
     <link>https://gavinsun0921.github.io/tags/monocular-depth/</link>
     <description>Recent content in Monocular Depth on Gavin Sun · Spatial Intelligence</description>
+    <image>
+      <title>Gavin Sun · Spatial Intelligence</title>
+      <url>https://gavinsun0921.github.io/images/og-default.png</url>
+      <link>https://gavinsun0921.github.io/images/og-default.png</link>
+    </image>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 21 Oct 2026 11:44:57 +0800</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/tags/monocular-depth/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[CVPR&#39;26] Efficiently Reconstructing Dynamic Scenes One 🎯 D4RT at a Time 阅读报告</title>

@@ -4,9 +4,14 @@
     <title>Categories on Gavin Sun · Spatial Intelligence</title>
     <link>https://gavinsun0921.github.io/categories/</link>
     <description>Recent content in Categories on Gavin Sun · Spatial Intelligence</description>
+    <image>
+      <title>Gavin Sun · Spatial Intelligence</title>
+      <url>https://gavinsun0921.github.io/images/og-default.png</url>
+      <link>https://gavinsun0921.github.io/images/og-default.png</link>
+    </image>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 21 Oct 2026 11:44:57 +0800</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Technical Manual</title>
@@ -30,9 +35,16 @@
       <description></description>
     </item>
     <item>
+      <title>Generative Model</title>
+      <link>https://gavinsun0921.github.io/categories/generative-model/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gavinsun0921.github.io/categories/generative-model/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Diffusion</title>
       <link>https://gavinsun0921.github.io/categories/diffusion/</link>
-      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/categories/diffusion/</guid>
       <description></description>
     </item>

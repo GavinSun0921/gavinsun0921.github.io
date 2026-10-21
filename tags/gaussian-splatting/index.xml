@@ -4,9 +4,14 @@
     <title>Gaussian Splatting on Gavin Sun · Spatial Intelligence</title>
     <link>https://gavinsun0921.github.io/tags/gaussian-splatting/</link>
     <description>Recent content in Gaussian Splatting on Gavin Sun · Spatial Intelligence</description>
+    <image>
+      <title>Gavin Sun · Spatial Intelligence</title>
+      <url>https://gavinsun0921.github.io/images/og-default.png</url>
+      <link>https://gavinsun0921.github.io/images/og-default.png</link>
+    </image>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 21 Oct 2026 11:44:57 +0800</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/tags/gaussian-splatting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[ICCV&#39;25 Highlight] Shape of Motion: 4D Reconstruction from a Single Video 阅读报告</title>

@@ -4,9 +4,14 @@
     <title>Low-Level Vision on Gavin Sun · Spatial Intelligence</title>
     <link>https://gavinsun0921.github.io/tags/low-level-vision/</link>
     <description>Recent content in Low-Level Vision on Gavin Sun · Spatial Intelligence</description>
+    <image>
+      <title>Gavin Sun · Spatial Intelligence</title>
+      <url>https://gavinsun0921.github.io/images/og-default.png</url>
+      <link>https://gavinsun0921.github.io/images/og-default.png</link>
+    </image>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 05 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 21 Oct 2026 11:44:57 +0800</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/tags/low-level-vision/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[T-PAMI&#39;23] Image Super-Resolution via Iterative Refinement 阅读报告</title>
@@ -20,7 +25,7 @@
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-01/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-01/</guid>
-      <description>Image deblurring with &amp;ldquo;predict-and-refine&amp;rdquo; conditional diffusion model. An brand new strategy for ill-posed problem.</description>
+      <description>Image deblurring with &amp;ldquo;predict-and-refine&amp;rdquo; conditional diffusion model. A brand new strategy for ill-posed problems.</description>
     </item>
   </channel>
 </rss>

@@ -4,9 +4,14 @@
     <title>Neovim on Gavin Sun · Spatial Intelligence</title>
     <link>https://gavinsun0921.github.io/tags/neovim/</link>
     <description>Recent content in Neovim on Gavin Sun · Spatial Intelligence</description>
+    <image>
+      <title>Gavin Sun · Spatial Intelligence</title>
+      <url>https://gavinsun0921.github.io/images/og-default.png</url>
+      <link>https://gavinsun0921.github.io/images/og-default.png</link>
+    </image>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 23 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 31 Jul 2025 22:00:18 +0800</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/tags/neovim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Neovim简单C&#43;&#43;开发环境配置过程</title>

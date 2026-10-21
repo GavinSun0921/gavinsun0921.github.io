@@ -4,9 +4,14 @@
     <title>Posts on Gavin Sun · Spatial Intelligence</title>
     <link>https://gavinsun0921.github.io/posts/</link>
     <description>Recent content in Posts on Gavin Sun · Spatial Intelligence</description>
+    <image>
+      <title>Gavin Sun · Spatial Intelligence</title>
+      <url>https://gavinsun0921.github.io/images/og-default.png</url>
+      <link>https://gavinsun0921.github.io/images/og-default.png</link>
+    </image>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 21 Oct 2026 11:44:57 +0800</lastBuildDate>
     <atom:link href="https://gavinsun0921.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>实验室服务器使用手册</title>
@@ -30,7 +35,7 @@
       <description>这篇文章提出了一种从单目视频中重建动态场景并估计长程 3D 运动轨迹的新方法。</description>
     </item>
     <item>
-      <title>[arXiv&#39;2512] Generative Video Motion Editing with 3D Point Tracks 阅读报告</title>
+      <title>[arXiv&#39;25] Generative Video Motion Editing with 3D Point Tracks 阅读报告</title>
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-07/</link>
       <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-07/</guid>
@@ -79,18 +84,18 @@
       <description>这篇教程为无ROOT权限的Ubuntu服务器用户提供了完整的CUDA Toolkit与cuDNN安装指南。采用静默安装模式将CUDA Toolkit部署到用户目录，通过交互式界面调整安装路径并仅保留必要组件。特别指出PyTorch内置版本与本地安装版本的区别，避免开发者误判环境状态。</description>
     </item>
     <item>
-      <title>A Brief Exploration to Variational Autoencoder (VAE) with Code Implementation</title>
+      <title>A Brief Exploration of Variational Autoencoder (VAE) with Code Implementation</title>
       <link>https://gavinsun0921.github.io/posts/paper-research-02/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/paper-research-02/</guid>
-      <description>Learn variational autoencoder (VAE) by reading and analyzing the paper: &amp;ldquo;Auto-Encoding Variational Bayes&amp;rdquo;. This post will introduce the basic work of VAE, including the derivation of formulas and simple code verification.</description>
+      <description>Learning variational autoencoder (VAE) by reading and analyzing the paper: &amp;ldquo;Auto-Encoding Variational Bayes&amp;rdquo;. This post will introduce the basic work of VAE, including the derivation of formulas and simple code verification.</description>
     </item>
     <item>
       <title>[NeurIPS&#39;19 Oral] Generative Modeling by Estimating Gradients of the Data Distribution 阅读报告</title>
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-03/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-03/</guid>
-      <description>This paper introduce a new generative model where samples are produced via Langevin dynamics using gradients of the data distribution estimated with score matching. And it is important to learn Score-Based generative network and Ito diffusion SDE.</description>
+      <description>This paper introduces a new generative model where samples are produced via Langevin dynamics using gradients of the data distribution estimated with score matching. And it is important to learn Score-Based generative network and Itô diffusion SDE.</description>
     </item>
     <item>
       <title>[T-PAMI&#39;23] Image Super-Resolution via Iterative Refinement 阅读报告</title>
@@ -104,14 +109,14 @@
       <link>https://gavinsun0921.github.io/posts/fast-paper-reading-01/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/fast-paper-reading-01/</guid>
-      <description>Image deblurring with &amp;ldquo;predict-and-refine&amp;rdquo; conditional diffusion model. An brand new strategy for ill-posed problem.</description>
+      <description>Image deblurring with &amp;ldquo;predict-and-refine&amp;rdquo; conditional diffusion model. A brand new strategy for ill-posed problems.</description>
     </item>
     <item>
-      <title>A Brief Exploration to Diffusion Probabilistic Models with Code Implementation</title>
+      <title>A Brief Exploration of Diffusion Probabilistic Models with Code Implementation</title>
       <link>https://gavinsun0921.github.io/posts/paper-research-01/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://gavinsun0921.github.io/posts/paper-research-01/</guid>
-      <description>Learn diffusion probabilistic models (DPM) by reading and analyzing the papers: &amp;ldquo;Deep Unsupervised Learning using Nonequilibrium Thermodynamics&amp;rdquo; and &amp;ldquo;Denoising Diffusion Probabilistic Models&amp;rdquo;. This post will introduce the basic work of DPM, including the derivation of formulas and simple code verification.</description>
+      <description>Learning diffusion probabilistic models (DPM) by reading and analyzing the papers: &amp;ldquo;Deep Unsupervised Learning using Nonequilibrium Thermodynamics&amp;rdquo; and &amp;ldquo;Denoising Diffusion Probabilistic Models&amp;rdquo;. This post will introduce the basic work of DPM, including the derivation of formulas and simple code verification.</description>
     </item>
   </channel>
 </rss>
